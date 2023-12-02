@@ -1,0 +1,83 @@
+body{
+    background-image: url("fs.webp");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    text-align: center;
+    /* background-image: url('images/cricket.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+table {
+    width: 80%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+
+
+.button {
+    margin-bottom: 1em;
+    border-width : 3px;
+    width: 7em;
+    height: 50px;
+    color:black;
+    margin-top :5em;
+    margin-left:29em;
+    font-size: 20px;/* Adjust the margin as needed */
+}
+
+.button:hover {
+    background-color: #b7f6f6;
+}
+span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px); 
+    border-radius: 8px; 
+}
+form{
+    text-align: left;
+    align-items: center;
+}
+
+.fancy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff; 
+    background: linear-gradient(45deg, #4CAF50, #2196F3); 
+    transition: background 0.3s ease;
+}
+
+.fancy-button:hover {
+    background: linear-gradient(45deg, #2196F3, #4CAF50); 
+}

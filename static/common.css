@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    width:7em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:2em;
+    margin-left:45em;
+}
+
+button:hover {
+    background-color: #45a049;
+}

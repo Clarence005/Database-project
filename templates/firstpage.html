@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="static\firstpage.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="left">
+            <h1 style="text-align:center;margin-top:100px;color:black;" >
+                Welcome To Online Blood Repository
+            </h1>
+            <p style="text-align:center ; font-weight:bold ; margin-top:60px ; font-size : 20px;color: black;">
+                “Sorry, there's no magic bullet
+            </p>
+            <p style="text-align:center;font-weight:bold ;  font-size : 20px;color:black;">
+                You gotta eat healthy and live healthy to be healthy and look healthy"
+            </p>
+            <p style="text-align:center ; font-weight:bold ;  font-size: 20px;color:black;">
+                -Morgan Spurlock
+            </p>
+        </div>
+        <div class="right">
+            <h1>Registeration</h1>
+            <form style="text-align: center;" method = "post" action = "{{url_for('process_form')}}">
+                <button class = "button"  type = "submit" name = "button_clicked" value = "button1" > Patient</button>
+                <button  class = "button" type = "submit" name = "button_clicked" value = "button2">Doctor</button>
+            </form>
+            
+        </div>
+        
+            
+            
+            
+        
+    
+    </div>
+</body>

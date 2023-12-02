@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="static\patient\patient_1.css">
+</head>
+<body>
+    
+    <form class = "details" method = "post" action="{{url_for('insert_patient')}}">
+        <h1>CS Hospital</h1>
+        <h3>Patient details</h3>
+        <div class ="button-container">
+        <button class = "button"  type = "submit" name = "button_clicked" value = "btn1">Insert</button>
+        <button class = "button" type = 'submit' name = "button_clicked" value = "btn2">Update</button>
+        <button class = "button" type = 'submit' name = "button_clicked" value = "btn3" >Details</button>
+        </div>
+    </form>
+</body>

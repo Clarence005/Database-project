@@ -1,0 +1,66 @@
+body{
+    background-image:url("fs.webp");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 20px
+}/* static/hospital_app/css/patient_form.css */
+
+
+h1 {
+    text-align : center;
+    color : black;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+form {
+    background :transparent;
+    backdrop-filter: blur(3px);
+    color:whitesmoke;
+    border: 5px groove rgb(202, 204, 210);
+    background-color: rgba(14, 78, 174, 0.2);
+    opacity: 2em;
+    padding: 1em;
+    width :50em;
+    height: 53em;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-left : 2em;
+    text-align : 10px;
+    color : black
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width :35em;
+    box-sizing: border-box;
+    margin-left:8em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:2em;
+    margin-left:25em;
+}
+
+button:hover {
+    background-color: #45a049;
+}

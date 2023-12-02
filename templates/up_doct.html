@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Patient</title>
+    <link rel="stylesheet" href="static\doctor\doctor.css">
+</head>
+<body>
+
+<form method="post"  action="{{url_for('up_doc')}}">
+    <h1>CS Hospital</h1>
+    <h3>Doctor Details</h3>
+    <label for="doctor_id">Doctor ID:</label>
+    <input type="text" id="doctor_id" name="doctor_id" required>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="contact_number">Contact Number:</label>
+    <input type="tel" id="contact_number" name="contact_number" required>
+
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department" required>
+
+    <label for = "patient_id">Patient id :</label>
+    <input type="text" id="patient_id" name="patient_id" required>
+
+    <br>
+    
+    <button type="submit" name = "button_clicked" value = "btn1">Submit</button>
+
+</body>

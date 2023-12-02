@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <h1>Patients</h1>
+    <link rel="stylesheet" href="static/doctor/details.css">
+{% endblock %}
+
+{% block body %}
+    <table >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>name</th>
+                <th>contact_number</th>
+                <th>department</th>
+                <th>patient id</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in results %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td>{{ row[1] }}</td>
+                    <td>{{ row[2] }}</td>
+                    <td>{{ row[3] }}</td>
+                    <td>{{ row[4] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <form method = "post" action = "{{url_for('direct_page')}}">
+        <button  class = "button" type = "submit" name = "button_clicked" value = "btn1">home</button>
+    </form>
+    
+    {% endblock %}
+    <br><br>
